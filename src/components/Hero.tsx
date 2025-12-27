@@ -38,9 +38,15 @@ export function Hero() {
         >
           {isNRISite ? (
             <>
+              <div className="mb-6">
+                <p className="text-2xl md:text-3xl font-semibold text-accent tracking-wide uppercase mb-3">
+                  NRI Legal Solutions
+                </p>
+                <p className="text-xl md:text-2xl text-primary-foreground/80 font-medium">
+                  by Ghuman Law Associates
+                </p>
+              </div>
               <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground tracking-tight mb-6 leading-tight">
-                <span className="text-accent">NRI Legal Solutions</span><br />
-                by Ghuman Law Associates<br />
                 Protecting Your Rights<br />
                 Across Borders
               </h1>
@@ -48,6 +54,11 @@ export function Hero() {
             </>
           ) : (
             <>
+              <div className="mb-6">
+                <p className="text-2xl md:text-3xl font-semibold text-accent tracking-wide uppercase">
+                  Ghuman Law Associates
+                </p>
+              </div>
               <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground tracking-tight mb-6 leading-tight">
                 A Legacy of<br />
                 <span className="text-accent">Proven Excellence</span><br />
